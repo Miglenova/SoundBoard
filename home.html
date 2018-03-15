@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  </head>
+
+
+  <body>
+
+
+
+
+      <header>
+         <nav> <!--Navigation Bar -->
+
+            <a href="#" data-genre="genre1">Rock</a>
+            <a href="#" data-genre="genre2">Pop</a>
+            <a href="#" data-genre="genre3">Hip-Hop</a>
+
+         </nav> <!--Navigation Bar Ends -->
+     </header>
+
+  <!--First Section -->
+      <section id="genre1"> <!--1 of 3 general sections begins -->
+
+         <h1>Top 100 Milenium Rock Songs</h1> <!--h1 is outside of section songs so we can use flex on them and not affect the header -->
+
+
+
+         <section class="songs"> <!--Images of bands anchored with music files-->
+
+              <article>
+                   <a data-song="lz" class="song"><img src="images/lz.jpg" alt="LedZepellin"/></a>
+                   <p>RIMHSAK-NILEPPEZ DEL</p> <!-- Led Zeppelin-"Kashmir" -->
+              </article>
+
+             <article>
+                  <a data-song="acdc" class="song"><img src="images/acdc.jpg" alt="ACDC"/></a>
+                  <p>KCALB NI KCAB-CD/CA</p> <!-- AC/DC's-'Back in Black' -->
+             </article>
+
+             <article>
+                  <a data-song="rs" class="song"><img src="images/rs.jpg" alt="RollingStones"/></a>
+                  <p>RETLEHS EMMIG-SENOTS GNILOR</p><!--Roling Stones-"Gimme Shelter" -->
+            </article>
+
+            <article>
+                <a data-song="pf" class="song"><img src="images/pf.jpg" alt="PinkFloyd"/></a>
+                <p>BMUN YLBATROFMOC-DYOLF KNIP</p><!--Pink Floyd-"Comfortably Numb" -->
+           </article>
+
+           <article>
+                <a data-song="as" class="song"><img src="images/as.jpg" alt="Aerosmith"/></a>
+                <p>NOITOME TEEWS-THIMSOREA</p><!--Aerosmith-"Sweet Emotion" -->
+             </figure>
+          </article>
+
+     </section><!--.songs Section Ends -->
+  </section>  <!--#genre1 Section Ends -->
+
+
+
+      <!--Second #genre2 Section begins-->
+
+  <section id="genre2">
+
+       <h1>Top 100 Milenium Pop Songs</h1> <!--h1 is outside of section songs so we can use flex on them and not affect the header -->
+
+
+       <section class="songs">  <!--section .songs begin-->
+
+          <article>
+                <a data-song="bep" class="song"><img src="images/bep.jpg" alt="Black Eyed Peas"/></a>
+                <p>GNILEEF ATTOG I-SAEP DEYE KCALB</p> <!-- Black Eyed Peas-"I gotta feeling" -->
+          </article>
+
+          <article>
+                <a data-song="bm" class="song"><img src="images/BM.jpg" alt="Bruno Mars"/></a>
+                <p>KCNUF NWOTPU-SRAM ONURB</p><!-- Bruno Mars-"Uptown Funck!" -->
+          </article>
+
+          <article>
+                <a data-song="ad" class="song"><img src="images/AD.jpg" alt="Adele"/></a>
+                <p>PEED EHT NI GNILLOR-ELEDA</p><!--Adele-"Rolling in the deep" -->
+          </article>
+
+          <article>
+                <a data-song="pw" class="song"><img src="images/pw.jpg" alt="Pharrell Williams"/></a>
+                <p>YPPAH-SMAILLIW LLERRAHP</p><!--Pharrell Williams-"Happy" -->
+         </article>
+
+
+         <article>
+               <a data-song="es" class="song"><img src="images/ES.jpg" alt="Ed Sheeran"/></a>
+               <p>UOY FO EPAHS-NAREESH DE</p><!--Ed Sheeran-Shape of You" -->
+         </article>
+
+       </section> <!--Section .songs ends -->
+    </section> <!--Section #genre2 ends -->
+
+
+      <!--Third Section #genre3 begins -->
+
+    <section id="genre3">
+
+         <h1>Top 100 Milenium Hip-Hop Songs</h1> <!--h1 is outside of section songs so we can use flex on them and not affect the header -->
+
+
+        <section class="songs"> <!--.songs section begins-->
+
+          <article>
+                 <a data-song="fc" class="song"><img src="images/fc.jpg" alt="50 Cent"/></a>
+                 <p>BULC AD NI-TNEC 05</p><!-- 50 Cent-"In Da Club" -->
+          </article>
+
+          <article>
+               <a data-song="hp" class="song"><img src="images/HP.jpg" alt="House of Pain"/></a>
+               <p>DNUORA PMUJ-NIAP FO ESOUH</p><!-- House of Pain-"Jump Around -->
+          </article>
+
+          <article>
+                <a data-song="llcj" class="song"><img src="images/LLCJ.jpg" alt="LL Cool J"/></a>
+                <p>TUO UOY  KCONK DIAS AMAM-J LOOC LL</p><!--LL Cool J-"Mama said knock you out" -->
+          </article>
+
+          <article>
+                <a data-song="em" class="song"><img src="images/EM.jpg" alt="Eminem"/></a>
+                <p>YDAHS MILS LAER EHT-MENIME</p><!--Eminem-"The real slim shady" -->
+          </article>
+
+
+          <article>
+                <a data-song="sd" class="song"><img src="images/SD.jpg" alt="Snoop Dog"/></a>
+                <p>TOH S'TI EKIL TI PORD-GOD POONS</p><!--Snoop Dog-"Drop it like it's hot"" -->
+          </article>
+
+       </section> <!--Section .songs ends -->
+    </section> <!--Section #genre3 ends -->
+
+
+    <!-- audio tags with data-song and src links -->
+
+    <audio data-song="lz" src="music/lz.mp3" type="audio/mp3"></audio>
+    <audio data-song="acdc" src="music/acdc.mp3" type="audio/mp3"></audio>
+    <audio data-song="rs" src="music/rs.mp3" type="audio/mp3"></audio>
+    <audio data-song="pf" src="music/pf.mp3" type="audio/mp3"></audio>
+    <audio data-song="as" src="music/as.mp3" type="audio/mp3"></audio>
+
+    <audio data-song="bep" src="music/bep.mp3" type="audio/mp3"></audio>
+    <audio data-song="bm" src="music/bm.mp3" type="audio/mp3"></audio>
+    <audio data-song="ad" src="music/ad.mp3" type="audio/mp3"></audio>
+    <audio data-song="pw" src="music/pw.mp3" type="audio/mp3"></audio>
+    <audio data-song="es" src="music/es.mp3" type="audio/mp3"></audio>
+
+    <audio data-song="fc" src="music/fc.mp3" type="audio/mp3"></audio>
+    <audio data-song="hp" src="music/hp.mp3" type="audio/mp3"></audio>
+    <audio data-song="llcj" src="music/llcj.mp3" type="audio/mp3"></audio>
+    <audio data-song="em" src="music/em.mp3" type="audio/mp3"></audio>
+    <audio data-song="sd" src="music/sd.mp3" type="audio/mp3"></audio>
+
+
+   <script src="js/audio.js"></script> <!--very important line to link audio.js file -->
+
+
+      <footer>
+        <h1>ENJOY THE MUSIC</h1>
+      </footer>
+
+
+
+
+ </body>
+</html>
