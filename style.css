@@ -1,0 +1,104 @@
+
+
+html {
+  font-family:"Merienda", Courier, Arial;
+  font-size: 18px;
+}
+
+/* using google fonts for the headers */
+@font-face {
+  font-family: Anton;
+  src: url("fonts.googleapis.com/css?family=Anton");
+}
+
+/*cover page contains an image anchored to the home page */
+#cover img {
+  height: 100vh;
+  width: 100vw;
+}
+
+/*nav uses flex to organize items */
+
+nav  {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  background:white;
+  padding-top: 2vh;
+}
+
+/*nav items are linked to separate sections of the page */
+a {
+  text-decoration: none;
+  font-family: 'Anton';
+  color:black;
+  font-size: 2em;
+}
+
+/*section contains header and images for each genre section*/
+
+section {
+  background-color: black;
+  padding-top: 20vh;
+  height: 100vh;
+  width:100vw;
+  padding-top: 20vh;
+}
+
+/* using flex for the images and image titles */
+.songs {
+  display: flex;
+  flex:1;
+  justify-content: space-around;
+}
+
+/* setting genre2 and genre3 sections display:none on loading */
+.genre2,genre3 {
+  display:none;
+}
+
+/*subtitles of images are written from right to left as a hint and aligned to the right as they are suppose to be read */
+ p {
+   display: flex;
+   justify-content: flex-end;!important
+   width: 10vw;
+   color:white;
+   display:none;
+   font-size: 0.5em;
+ }
+
+/* subtitles to images are shown on hover as a hint*/
+a:hover + p {
+  display: flex;
+}
+
+/* all h1 tags are Anton font and aligned center */
+ h1 {
+   font-family: 'Anton';font-size: 30px;
+   text-align: center;
+ }
+
+/*each genre section has an individual header color */
+ #genre1 h1 {
+   color: #ED1F24;
+ }
+
+ #genre2 h1 {
+   color: #FCEE10;
+ }
+
+#genre3 h1 {
+  color: #2D7FC2;
+}
+
+/*footer takes 100% width and has position fixed */
+ footer {
+   height:10vh;
+   width: 100vw;
+   bottom: 0;
+   line-height: 10vh;
+   background-color: white;
+   position: fixed;
+ }
